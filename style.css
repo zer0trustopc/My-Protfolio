@@ -103,7 +103,7 @@ body.ready .hero .orbit{animation:pop .9s cubic-bezier(.2,.9,.3,1.2) both}
 /* about */
 .about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:center}
 .photo-card{position:relative;max-width:380px;margin-inline:auto}
-.photo-card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 12%;border-radius:14px;border:1px solid var(--g);box-shadow:0 0 40px rgba(25,255,122,.25);background:#fff}
+.photo-card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 25%;border-radius:14px;border:1px solid var(--g);box-shadow:0 0 40px rgba(25,255,122,.25);background:#fff}
 .photo-card::before,.photo-card::after{content:"";position:absolute;width:48px;height:48px;border:2px solid var(--g)}
 .photo-card::before{top:-12px;left:-12px;border-right:0;border-bottom:0}
 .photo-card::after{bottom:-12px;right:-12px;border-left:0;border-top:0}
